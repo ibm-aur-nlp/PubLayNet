@@ -9,3 +9,7 @@ Images and annotations can be downloaded from this [Box folder](https://ibm.box.
 ## Annotation format
 
 The annotation files follows the [json format of the Object Detection task of MS COCO](http://cocodataset.org/#format-data)
+
+## Examples
+
+A visualization of the annotations of 20 sample pages is available [here](./examples/visualize_annotations.ipynb)
