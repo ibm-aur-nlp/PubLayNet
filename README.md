@@ -4,10 +4,6 @@ PubLayNet is a large dataset of document images, of which the layout is annotate
 
 ## Updates in progress
 
-### Data access
-
-The current download link (Box) only supports downloading in a browser. And we have received a few reports that the downloading speed is low in India and China. We are working on migrating the data to the [IBM Data Asset eXchange (DAX)](https://developer.ibm.com/exchanges/data/) platform, which supports aws s3 API. The dataset is under legal assessment by DAX and will be migrated soon.
-
 ### Pre-trained model
 
 In parallel with data migration, the pre-trained Faster-RCNN and Mask-RCNN models are under legal assessment and will be released on [IBM Model Asset eXchange (MAX)](https://developer.ibm.com/exchanges/models/).  
@@ -18,7 +14,21 @@ The ground truth of test will not be release, as we want to keep it for a compet
 
 ## Getting data
 
-Images and annotations can be downloaded from this [Box folder](https://ibm.box.com/s/ph19ku47eahazje4caijlmnmcwa20v9o)
+Images and annotations can be downloaded [here](https://developer.ibm.com/exchanges/data/all/publaynet/). The training set is quite large, so two options are offerred. We split the training set into 7 batches, which can be separately downloaded. Or you can also download the full set at once.
+
+If direct download in browser is unstable or you want to download the data from the command line, you can use aws s3 API, curl or wget to download the data.
+
+```
+aws --endpoint-url=https://dax-assets-dev.s3.us-south.cloud-object-storage.appdomain.cloud s3 cp s3://dax-publaynet/1.0.0/publaynet.tar.gz <YOUR_TARGET_DIR>/publaynet.tar.gz
+```
+
+```
+curl -o <YOUR_TARGET_DIR>/publaynet.tar.gz https://dax-assets-dev.s3.us-south.cloud-object-storage.appdomain.cloud/dax-publaynet/1.0.0/publaynet.tar.gz
+```
+
+```
+wget -O <YOUR_TARGET_DIR>/publaynet.tar.gz https://dax-assets-dev.s3.us-south.cloud-object-storage.appdomain.cloud/dax-publaynet/1.0.0/publaynet.tar.gz
+```
 
 ## Annotation format
 
