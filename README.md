@@ -36,6 +36,6 @@ The annotation files follows the [json format of the Object Detection task of MS
 
 ## Examples
 
-A [Jupyter notebook](./examples/visualize_annotations.ipynb) is provided to generate the following visualization of the annotations of 20 sample pages.
+A [Jupyter notebook](./explore_PubLayNet_dataset.ipynb) is provided to generate the following visualization of the annotations of 20 sample pages.
 
 ![alt text](./examples/annotations.png "Annotations of 20 sample pages")
