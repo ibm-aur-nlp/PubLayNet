@@ -2,9 +2,9 @@
 
 ## Training configurations
 
-The configuration (ymal) files of our pre-training settings are provided:  
-  - [Faster-RCNN](Faster-RCNN/e2e_faster_rcnn_X-101-64x4d-FPN_1x.ymal)
-  - [Mask-RCNN](Mask-RCNN/e2e_mask_rcnn_X-101-64x4d-FPN_1x.ymal)
+The configuration (yaml) files of our pre-training settings are provided:  
+  - [Faster-RCNN](Faster-RCNN/e2e_faster_rcnn_X-101-64x4d-FPN_1x.yaml)
+  - [Mask-RCNN](Mask-RCNN/e2e_mask_rcnn_X-101-64x4d-FPN_1x.yaml)
 
 ### Convert pre-trained model for fine-tuning on another target dataset
 
