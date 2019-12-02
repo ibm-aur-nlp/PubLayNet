@@ -6,7 +6,7 @@ The configuration (yaml) files of our pre-training settings are provided:
   - [Faster-RCNN](Faster-RCNN/e2e_faster_rcnn_X-101-64x4d-FPN_1x.yaml)
   - [Mask-RCNN](Mask-RCNN/e2e_mask_rcnn_X-101-64x4d-FPN_1x.yaml)
 
-### Convert pre-trained model for fine-tuning on another target dataset
+## Convert pre-trained model for fine-tuning on another target dataset
 
 The category-id to label mapping of the pre-trained model is
 
@@ -38,3 +38,7 @@ python convert_PubLayNet_model.py \
 ```
 
 The `lookup_table` argument controls the link from the category-id of the pre-trained model to that of the target dataset. The key of `lookup_table` is the category-id of the target dataset. The value of `lookup_table` is the category-id of the pre-trained model. If there is a category in your target dataset that does not correspond to any category in the pre-trained model, set the value to `-1` for random initialization.
+
+## Fine-tuning
+
+Follow the [Training a Model with Detectron](https://github.com/facebookresearch/Detectron/blob/master/GETTING_STARTED.md) instructions to fine-tune our pre-trained models for your target dataset. When fine-tuning, pass your converted pre-trained models to the `TRAIN.WEIGHTS` argument of `train_net.py`, or set it in your configuration yaml file.
