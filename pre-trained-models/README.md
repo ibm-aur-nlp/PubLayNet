@@ -1,5 +1,11 @@
 # Pre-trained Faster-RCNN and Mask-RCNN models on PubLayNet
 
+## Get pre-trained models
+
+We pre-trained a Faster-RCNN model and a Mask-RCNN model on PubLayNet. The pre-trained models can be downloaded with the links below  
+ - [Faster-RCNN](https://dax-assets-dev.s3.us-south.cloud-object-storage.appdomain.cloud/dax-publaynet/1.0.0/pre-trained-models/Faster-RCNN/model_final.pkl)
+ - [Mask-RCNN](https://dax-assets-dev.s3.us-south.cloud-object-storage.appdomain.cloud/dax-publaynet/1.0.0/pre-trained-models/Mask-RCNN/model_final.pkl)
+
 ## Training configurations
 
 The configuration (yaml) files of our pre-training settings are provided:  
@@ -32,7 +38,7 @@ To convert the pre-trained models for SPD, run
 ```
 cd <YOUR_CLONE_DIR>/PubLayNet/pre-trained-models
 python convert_PubLayNet_model.py \
-    --PubLayNet_model {Faster,Mask}-RCNN/model-final.pkl \
+    --PubLayNet_model <YOUR_MODEL_DOWNLOAD_PATH> \
     --lookup_table '{0:0, 1:1, 2:3, 3:4}' \
     --output <YOUR_OUTPUT_MODEL_PATH>
 ```
