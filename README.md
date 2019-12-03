@@ -4,6 +4,8 @@ PubLayNet is a large dataset of document images, of which the layout is annotate
 
 ## Headlines
 
+`03/Dev/2019` - Pre-trained Faster-RCNN model and Mask-RCNN model are [released](pre-trained-models).
+
 `25/Nov/2019` - [**PubTabNet**](https://github.com/ibm-aur-nlp/PubTabNet) is released! PubTabNet is a large dataset for image-based table recognition, containing 568k+ images of tabular data annotated with the corresponding HTML representation of the tables. Table regions are identified using the same algorithm that generates PubLayNet.
 
 `01/Nov/2019` - Our paper ["PubLayNet: largest dataset ever for document layout analysis."](https://arxiv.org/abs/1908.07836) receives the [**best paper award** at ICDAR 2019](http://icdar2019.org/award/)!
@@ -11,10 +13,6 @@ PubLayNet is a large dataset of document images, of which the layout is annotate
 `31/Oct/2019` - PubLayNet migrates from Box to [**IBM Data Asset eXchange**](https://developer.ibm.com/exchanges/data/all/publaynet/).
 
 ## Updates in progress
-
-### Pre-trained model
-
-In parallel with data migration, the pre-trained Faster-RCNN and Mask-RCNN models are under legal assessment and will be released on [IBM Model Asset eXchange (MAX)](https://developer.ibm.com/exchanges/models/).  
 
 ### Ground truth of test set
 
