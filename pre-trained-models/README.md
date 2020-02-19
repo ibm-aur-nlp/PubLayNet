@@ -3,8 +3,8 @@
 ## Get pre-trained models
 
 We pre-trained a Faster-RCNN model and a Mask-RCNN model on PubLayNet. The pre-trained models can be downloaded with the links below  
- - [Faster-RCNN](https://dax-assets-dev.s3.us-south.cloud-object-storage.appdomain.cloud/dax-publaynet/1.0.0/pre-trained-models/Faster-RCNN/model_final.pkl)
- - [Mask-RCNN](https://dax-assets-dev.s3.us-south.cloud-object-storage.appdomain.cloud/dax-publaynet/1.0.0/pre-trained-models/Mask-RCNN/model_final.pkl)
+ - [Faster-RCNN](https://dax.cdn.appdomain.cloud/dax-publaynet/1.0.0/pre-trained-models/Faster-RCNN/model_final.pkl)
+ - [Mask-RCNN](https://dax.cdn.appdomain.cloud/dax-publaynet/1.0.0/pre-trained-models/Mask-RCNN/model_final.pkl)
 
 ## Training configurations
 
