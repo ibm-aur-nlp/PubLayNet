@@ -4,9 +4,11 @@ PubLayNet is a large dataset of document images, of which the layout is annotate
 
 ## Examples
 
-A [Jupyter notebook](./explore_PubLayNet_dataset.ipynb) is provided to generate the following visualization of the annotations of 20 sample pages.
+
 
 ![alt text](./examples/annotations.png "Annotations of 20 sample pages")
+
+A [Jupyter notebook](./explore_PubLayNet_dataset.ipynb) is provided to generate the following visualization of the annotations of 20 sample pages.
 
 ## Headlines
 
