@@ -4,7 +4,7 @@ PubLayNet is a large dataset of document images, of which the layout is annotate
 
 ## Headlines
 
-`26/Apr/2020` - PubLayNet is used by ICLR 2020 to [extract all the images]((https://twitter.com/srush_nlp/status/1253788694739386371)) in ICLR 2020 papers for promotion.
+`26/Apr/2020` - PubLayNet is used by ICLR 2020 to [extract all the images](https://twitter.com/srush_nlp/status/1253788694739386371) in ICLR 2020 papers for promotion.
 
 `03/Dev/2019` - Pre-trained Faster-RCNN model and Mask-RCNN model are [released](pre-trained-models).
 
