@@ -38,6 +38,23 @@ wget -O <YOUR_TARGET_DIR>/publaynet.tar.gz https://dax-cdn.cdn.appdomain.cloud/d
 
 The annotation files follows the [json format of the Object Detection task of MS COCO](http://cocodataset.org/#format-data)
 
+## Cite us
+
+```
+@inproceedings{zhong2019publaynet,
+  title={PubLayNet: largest dataset ever for document layout analysis},
+  author={Zhong, Xu and Tang, Jianbin and Yepes, Antonio Jimeno},
+  booktitle={2019 International Conference on Document Analysis and Recognition (ICDAR)},
+  year={2019},
+  volume={},
+  number={},
+  pages={1015-1022},
+  doi={10.1109/ICDAR.2019.00166},
+  ISSN={1520-5363},
+  month={Sep.},
+  organization={IEEE}
+}
+```
 
 ## Examples
 
