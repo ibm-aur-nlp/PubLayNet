@@ -38,6 +38,16 @@ curl -o <YOUR_TARGET_DIR>/publaynet.tar.gz https://dax-cdn.cdn.appdomain.cloud/d
 wget -O <YOUR_TARGET_DIR>/publaynet.tar.gz https://dax-cdn.cdn.appdomain.cloud/dax-publaynet/1.0.0/publaynet.tar.gz
 ```
 
+To download the PDFs of the document pages contained in PubLayNet:
+
+```
+curl -o <YOUR_TARGET_DIR>/PubLayNet_PDF.tar.gz https://dax-cdn.cdn.appdomain.cloud/dax-publaynet/1.0.0/PubLayNet_PDF.tar.gz
+```
+
+```
+wget -O <YOUR_TARGET_DIR>/PubLayNet_PDF.tar.gz https://dax-cdn.cdn.appdomain.cloud/dax-publaynet/1.0.0/PubLayNet_PDF.tar.gz
+```
+
 ## Annotation format
 
 The annotation files follows the [json format of the Object Detection task of MS COCO](http://cocodataset.org/#format-data)
