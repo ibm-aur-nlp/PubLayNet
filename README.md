@@ -4,6 +4,10 @@ PubLayNet is a large dataset of document images, of which the layout is annotate
 
 ## Headlines
 
+`07/Aug/2020` - PDF of document pages in PubLayNet is [released](https://dax-cdn.cdn.appdomain.cloud/dax-publaynet/1.0.0/PubLayNet_PDF.tar.gz).
+
+`20/Jul/2020` - PubLayNet is used in [ICDAR 2021 Competition on Scientific Literature Parsing](https://github.com/IBM/ICDAR2021-SLP) ([Task A on Document Layout Recognition](https://aieval.draco.res.ibm.com/challenge/41/overview))
+
 `26/Apr/2020` - PubLayNet is used by ICLR 2020 to [extract all the images](https://twitter.com/srush_nlp/status/1253788694739386371) in ICLR 2020 papers for promotion.
 
 `03/Dev/2019` - Pre-trained Faster-RCNN model and Mask-RCNN model are [released](pre-trained-models).
