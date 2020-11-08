@@ -28,6 +28,8 @@ The ground truth of test will not be release, as we want to keep it for a compet
 
 Images and annotations can be downloaded [here](https://developer.ibm.com/exchanges/data/all/publaynet/). The training set is quite large, so two options are offered. We split the training set into 7 batches, which can be separately downloaded. Or you can also download the full set at once.
 
+For the ICDAR competition, ids of the image files are available [here](https://github.com/ibm-aur-nlp/PubLayNet/blob/master/ICDAR_SLR_competition/test_ids.json).
+
 If direct download in browser is unstable or you want to download the data from the command line, you can use curl or wget to download the data.
 
 ```
