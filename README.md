@@ -4,6 +4,8 @@ PubLayNet is a large dataset of document images, of which the layout is annotate
 
 ## Headlines
 
+`07/Mar/2022` - We have released the ground truth of the test set for the ICDAR 2021 Scientific Literature Parsing competition available [here!](https://github.com/ibm-aur-nlp/PubLayNet/tree/master/ICDAR_SLR_competition/final_test_set).
+
 `04/May/2021` - Report for the ICDAR 2021 Scientific Literature Parsing competition available [here](https://github.com/ibm-aur-nlp/PubLayNet/blob/master/ICDAR_SLR_competition/ICDAR_2021_Scientific_Literature_Parsing.pdf).
 
 `07/Aug/2020` - PDF of document pages in PubLayNet is [released](https://dax-cdn.cdn.appdomain.cloud/dax-publaynet/1.0.0/PubLayNet_PDF.tar.gz).
@@ -24,7 +26,7 @@ PubLayNet is a large dataset of document images, of which the layout is annotate
 
 ### Ground truth of test set
 
-The ground truth of test will not be release, as we want to keep it for a competition in the future. We will offer a service for people to submit and evaluate their results soon.
+We have released the ground truth of the test set for the ICDAR 2021 Scientific Literature Parsing competition available [here!](https://github.com/ibm-aur-nlp/PubLayNet/tree/master/ICDAR_SLR_competition/final_test_set).
 
 ## Getting data
 
