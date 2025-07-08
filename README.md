@@ -30,29 +30,9 @@ We have released the ground truth of the test set for the ICDAR 2021 Scientific 
 
 ## Getting data
 
-Images and annotations can be downloaded [here](https://developer.ibm.com/exchanges/data/all/publaynet/). The training set is quite large, so two options are offered. We split the training set into 7 batches, which can be separately downloaded. Or you can also download the full set at once.
+### The data set is no longer available from IBM and there is no current download site. If you have a copy of the data set, please reach to us through this [issue](https://github.com/ibm-aur-nlp/PubLayNet/issues/46).
 
 For the ICDAR competition, ids of the image files are available [here](https://github.com/ibm-aur-nlp/PubLayNet/blob/master/ICDAR_SLR_competition/test_ids.json).
-
-If direct download in browser is unstable or you want to download the data from the command line, you can use curl or wget to download the data.
-
-```
-curl -o <YOUR_TARGET_DIR>/publaynet.tar.gz https://dax-cdn.cdn.appdomain.cloud/dax-publaynet/1.0.0/publaynet.tar.gz
-```
-
-```
-wget -O <YOUR_TARGET_DIR>/publaynet.tar.gz https://dax-cdn.cdn.appdomain.cloud/dax-publaynet/1.0.0/publaynet.tar.gz
-```
-
-To download the PDFs of the document pages contained in PubLayNet:
-
-```
-curl -o <YOUR_TARGET_DIR>/PubLayNet_PDF.tar.gz https://dax-cdn.cdn.appdomain.cloud/dax-publaynet/1.0.0/PubLayNet_PDF.tar.gz
-```
-
-```
-wget -O <YOUR_TARGET_DIR>/PubLayNet_PDF.tar.gz https://dax-cdn.cdn.appdomain.cloud/dax-publaynet/1.0.0/PubLayNet_PDF.tar.gz
-```
 
 ## Annotation format
 
