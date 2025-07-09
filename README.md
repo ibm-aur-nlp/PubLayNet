@@ -30,7 +30,7 @@ We have released the ground truth of the test set for the ICDAR 2021 Scientific 
 
 ## Getting data
 
-### The data set is no longer available from IBM and there is no current download site. If you have a copy of the data set, please reach to us through this [issue](https://github.com/ibm-aur-nlp/PubLayNet/issues/46).
+The data set is available from Huggingface [here](https://huggingface.co/datasets/jordanparker6/publaynet) (from Jordan's Parker Huggingface account).
 
 For the ICDAR competition, ids of the image files are available [here](https://github.com/ibm-aur-nlp/PubLayNet/blob/master/ICDAR_SLR_competition/test_ids.json).
 
